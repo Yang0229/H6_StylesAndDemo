@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Implement features for API 21 and below -->
+
+    <!-- Base application theme. -->
+    <style name="OurBaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/AppMediumText</item>
+        <!--<item name="android:buttonStyle">@style/xyz</item>-->
+        <!--<item name="android:editTextStyle">@styleabc</item>-->
+
+    </style>
+
+    <style name="OurAppTheme" parent="OurBaseAppTheme">
+
+    </style>
+
+</resources>

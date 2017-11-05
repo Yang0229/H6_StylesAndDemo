@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.sriyanksiddhartha.stylesandthemesdemo.MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move To Second Activity"
+        android:onClick="moveToSecondActivity"
+        />
+
+    <TextView
+        style="@style/AppSmallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Small Text"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/AppMediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textStyle="italic" />
+
+    <TextView
+        style="@style/AppLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text" />
+
+    <TextView
+        style="@style/AppExtraLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Text" />
+
+    <TextView
+        style="@style/AppExtraLargeTextLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Light" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Our Radio Button"
+        android:textColor="@color/textColor_radio_1"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/txvGradient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gradient"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/shadowColor_shadowText_1"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Shadow"
+        android:textColor="@color/shadowTextColor_shadowText_1"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor_buttonTest_1"
+        android:shadowColor="@color/shadowColor_buttonTest_1"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Button Test"
+        android:textColor="@color/textColor_buttonTest_1"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/btn_pressed" android:state_pressed="true" /> <!-- Button Pressed -->
+    <item android:drawable="@drawable/btn_default" /> <!-- Default Case -->
+
+</selector>

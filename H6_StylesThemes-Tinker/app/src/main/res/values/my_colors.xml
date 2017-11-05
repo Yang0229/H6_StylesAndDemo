@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drakGreen">#005b4f</color>
+    <color name="white">#ffffff</color>
+    <color name="shadowColor_shadowText_1">#f44336</color>
+    <color name="shadowTextColor_shadowText_1">#ff7961</color>
+    <color name="backgroundColor_buttonTest_1">#fb8c00</color>
+    <color name="shadowColor_buttonTest_1">#c25e00</color>
+    <color name="textColor_buttonTest_1">#000000</color>
+    <color name="textColor_radio_1">#9c27b0</color>
+</resources>
